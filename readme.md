@@ -66,3 +66,7 @@ initParameters;
 writeDataVHDL;
 ```
 The latter script writes all parameters, lookup tables, connectivity matrices, seed vectors, etc. to VHDL packages, which are part of the architectures. It uses the files in the [templates](./vhdl/templates/) folder and overwrites the values. The packages in the [source](./vhdl/source/) folder are overwritten every time `writeDataVHDL` is called.
+
+## Paper
+
+M. Schmuck, L. Benini, A. Rahimi, "Hardware Optimizations of Dense Binary Hyperdimensional Computing: Rematerialization of Hypervectors, Binarized Bundling, and Combinational Associative Memory". arXiv preprint: [arXiv:1807.08583](https://arxiv.org/abs/1807.08583).
